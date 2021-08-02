@@ -1,0 +1,50 @@
+$desktop:600px;
+
+@mixin desktop {
+    @media (min-width : #{$desktop}) 
+    {
+        @contact;
+    }
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+nav{
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 0;
+
+    @include desktop {
+        display: grid;
+        grid-template-columns: (4,1fr);
+    };
+
+    .home{
+        background-color: cadetblue;
+    }
+
+    .services{
+        background-color: chocolate;
+    }
+
+    .about-us{
+        background-color: cornflowerblue;
+    }
+
+    .contact{
+        background-color: crimson;
+    }
+}
+
+main{
+    h1{
+        font-size: 1.5em;
+        @include desktop {
+        font-size: 2em;
+        };
+    }
+}
