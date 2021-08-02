@@ -1,0 +1,18 @@
+$them-color: red;
+$main-color: blue;
+
+header{
+    color: $them-color;
+}
+
+main{
+    background-color: $main-color ;
+}
+
+footer{
+    color: $them-color;
+}
+
+input[type=button]{
+    background-color: $them-color ;
+}
