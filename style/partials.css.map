@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACF,KAAK,EAAE,UAAU;EACjB,gBAAgB,EAAE,MAAM;;ACF5B,MAAM;EACF,KAAK,EAAE,MAAM;EACb,gBAAgB,EAAE,WAAW;;ACCjC,IAAI;EACA,gBAAgB,EAAE,IAAI",
+"sources": ["_header.scss","footer.scss","partials.scss"],
+"names": [],
+"file": "partials.css"
+}
